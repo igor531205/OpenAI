@@ -26,7 +26,7 @@ def get_frame(cap, scaling_factor):  # Определение функции, п
 
 if __name__ == '__main__':
     # Определение объекта захвата видео
-    cap = cv2.VideoCapture('https://youtu.be/OllOn2UUl3g')
+    cap = cv2.VideoCapture(0)
 
     # Определение масштабного множителя для изображений
     scaling_factor = 0.5
